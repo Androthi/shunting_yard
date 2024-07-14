@@ -151,7 +151,6 @@ eval	:: proc( expr: string) -> f64 {
 	sym:Attr
 	args:[2]f64
 	result:f64
-	ok:bool
 
 	for x:=0; x<que.len(output_stack); x+=1 {
 		sym = que.get(&output_stack, x)
